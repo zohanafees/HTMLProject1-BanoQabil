@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+      <nav class="navContainer">
+        <img src="./images/recipe logo.png" class="logo" alt="website logo" />
+        <ul class="navContainer">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./recipe.html">Recipes</li></a>
+          <li><a href="./contactus.html">Contact Us</li></a>
+          <li><a href="./aboutus.html">About Us</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <form action="">
+            <div>
+                <fieldset class="gridContainer">
+                        <legend>Personal Information</legend>                
+                        <label for="name">Name :</label>
+                        <input type="text" placeholder="Enter Your Name">
+                    <div>
+                        <label for="Contact number">Contact Number :</label>
+                        <input type="number" placeholder="Enter Your Contact Number">
+                    </div>
+                    <div>
+                        <label for="email">Email :</label>
+                        <input type="email" placeholder="Enter Your Email">
+                    </div>
+                    <div>
+                        <label for="gender">Select Gender</label>
+                        <input type="radio" name="gender" value="Male" />Male
+                        <input type="radio" name="gender" value="Female" />Female
+                        <input type="radio" name="gender" value="other" />other
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Feed Back</legend>
+                    <label for="text">Message :</label>
+                    <textarea name="" id="" rows="10" cols="50" maxlength="300"></textarea>
+                </fieldset>
+            </div>
+            <button>
+                Submit
+            </button>
+        </form>
+    </main>
+</body>
+</html>
